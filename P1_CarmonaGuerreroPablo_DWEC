@@ -1,0 +1,136 @@
+# Proyecto 1
+
+## Modelos de Programación en Entornos Cliente/Servidor
+
+### Investigación de los modelos cliente/servidor más comunes.
+
+Entre los diferentes modelos cliente/servidor que existen he elegido estos 4 :
+
+- Arquitectura de 2 Capas
+- Arquitectura de 3 Capas
+- Arquitectura de N Capas
+
+
+#### **Arquitectura de 2 Capas**
+
+Se utiliza para describir los sistemas c/s , el cliente solicita recursos o información al servidor y este responde con sus respectivos recursos e infromación . Por lo tanto , el servidor no necesita de una aplicación extra para proporcionar un parte de ese servicio .
+
+#### **Arquitectura de 3 Capas**
+
+Hace prácticamente lo mismo que el de 2 Capas ,solo que necesita una capa intermedia denominada software intermedio cuya labor es proporcionar los recursos solicitados por el cliente pero necesita de otro servidor para hacerlo . La última capa es el servidor que proporciona los recursos o datos al servidor de aplicaciones .
+
+#### **Arquitectura de N Capas**
+
+Como vemos en la Arquitectutra de 3 Capas , los servidores o capas 2 y 3 tienen una tarea específica por lo tanto tanto un servidore web puede usar los servicios de otros servidores para proporcionar el servicio solicitado . Con esto entendemos que este modelo de cliente/servidor puede estar compuesto por N servidores donde cada uno brinda su tarea o servicio.
+
+### Identificación de ejemplos de aplicaciones que utilizan cada modelo.
+
+Ahora vamos a ver ejemplos de aplicaciones que usan estos tres  modelos de cliente/servidor :
+
+- Arquitectura de 2 Capas : Gmail,Outlook,WhatsApp.
+- Arquitectura de 3 Capas : Amazon,Workday.
+- Arquitectura de N Capas : Oracle,SCM Cloud,Chase Bank.
+
+## Mecanismos de Ejecución de Código en un Navegador Web. Capacidades y Limitaciones de Ejecución. Compatibilidad con Navegadores Web
+
+### Estudio de cómo se ejecuta el código JavaScript en un navegador.
+
+JavaScript se ejecuta en un navegador web en varios procesos :
+
+- **Descarga y carga del código** : Cuando en el navegador entramos en una página web que contiene JavaScipt , empieza a descargarlo en la memoria del navegador y también a cargarlo . Este código puede estar incrustado en el archivo de HTML o puede ser externo .
+- **Análisis léxico y sintáctico** : Una vez cargado el código , el motor de este realiza un análisis léxico y sintáctico del código para comprobar que se ha escrito correctamente . Si hay algún error en el código se mostrará un mensaje de error en la consola.
+- **Creación del árbol de análisis** : Después depasar el análisis léxico y sintáctico , se crea un árbol de análisis que representa la estructura del código y  lo descompone en un estructura jerárquica para una fácil interpretación y ejecucción.
+- **Interpretación línea por línea** : Mientras que el navegador interpreta el código , ejecuta las instrucciones correspondientes . Cada una de esas instruccionees se evalua y produce un resultado o efecto según el código .
+- **Manipulación del DOM y eventos** : Javascript manipula el DOM para manipular y modificar elementos HTML y CSS en la página .  Este accede utilizando métodos y propiedades proporcionados por el navegador . También puede registrar callbacks para eventos específicos como clicks de botón o cambios de algún valor .
+- **Ciclo de eventos** : Permite que el código responda a eventos y se ejecute de forma asincrona . Cuando se produce un evento el código correspondiente se ejecuta como parte de este ciclo , lo que permite un interacción fluida y una respuesta en tiempo real .   
+
+### Evaluación de las diferencias de compatibilidad entre navegadores.
+
+Las diferencias entre navegadores son las siguientes : 
+- **Motor de renderizado** : Los navegadores utilizan un motor de renderizado diferente para interpretar y mostrar páginas web .
+- **Estándares web** : Los navegadores tienden a seguir estándares web establecidos por organizaciones como W3C y Ecma International . Sin embargo , la implementación  de estos puede variar entre navegadores . Algunos tienen características más avanzadas mientras que otros tardan más en implementarlas .
+- **CSS y estilos** :  Pueden surgir errores de compatiblidad en cuanto a la representación de márgenes , espaciado fuentes , transiciones y animaciones CSS . También se interpreta de manera distinta en cada navegador el uso de CSS. Es importante probar y ajustar el diseño de una página web para aparentar un diseño consistente en los navegadores .
+- **Sistema Operativo** : Algunas funciones de las páginas web se ven de manera distinta en PC,Mac o Linux.
+- **Resolución de la pantalla** : Si creas una página web con una resolución específica se verán de manera distina si cambias a una pantalla con otra resolución .
+
+### Resolución de problemas de compatibilidad en una aplicación web.
+
+Existe un proceso para la solucionar los problemas de  compatibilidad en una aplicación web y es el siguiente :
+
+  1. **Identificación de problemas** : Realizar pruebas en distintos navegadores  y dispositivos móviles . También hay que utilizar las herramientas de desarrollo de los navegadores  para inspeccionar y depurar problemas específicos.
+  2. **Recopilación de información** : Anotar cualquier problema de compatibilidad y describirlo . Además , hay que  intentar recrear el problema en un entorno de desarrollo para comprender las causas .
+  3. **Identificaión de causas** Revisar el código en busca de algún error o prácticas que no sean compatibles  con ciertos navegadores . Asegurar que la aplicaión cumpla con los estándares de la web. Si usamos CSS específicas de proveedores , asegurarse de agregar los prefijos adecuados .
+  4. **Resolución de problemas** : Realiza las correcciones necesarias en tu código para solucionar los problemas identificados y asegurarse de probar de nuevo en diferentes navegadores .
+
+## Lenguajes de Programación en Entorno Cliente
+
+### Investigación de lenguajes como JavaScript, TypeScript, y otros.
+
+Existen varios lenguajes de desarrollo del lado del cliente , entre ellos podemos encontrar : 
+- JavaScript
+- React
+- CSS
+- HTML
+- jQuery
+- SASS
+- TypeScript
+
+### Comparación de sus características y aplicaciones.
+
+Vamos a ver las características y aplicaciones de algunos de ellos :
+
+#### **JavaScript**
+
+JavaScript tiene características para hacer varios tipos de Interfaces ,tiene un soporte de bibliotecas externas masivas que amplían sus características y tiene compatibilidad con lenguajes de programación . También es super rápido y usa muy pocos recursos.
+
+Se utiliza para manipular DOM , animaciones y efectos , comunicación con el servidor , etc...
+
+#### **jQuery**
+
+Con jQuery puedes realizar cambios en los DOM agregando y eliminando elementos CSS , se puede implementar efectos de animación  y estética , tiene una amplia documentación y admite todos los navegadores .
+
+Se utiliza para manioular DOM , animaciones y efectos , interacción con formularios , etc...
+
+#### **SASS **
+
+SASS tiene la capacidad de usar variables , bucles , operaciones matemáticas . funciones de importación y otras cosas valiosas que llevan al CSS a otro nivel. Aprovecha las funciones de windows para ampliar sus capacidades y funciona con CSS .
+
+Se utliza para mejorar la legibilidad del código , definir variables , herencia , funciones y operaciones , etc ...
+
+## Características de los Lenguajes de Script. Ventajas y Desventajas
+
+### Análisis de las ventajas y desventajas de la programación en lenguajes de script sobre la programación tradicional.
+
+#### **Ventajas**
+
+- Es más fácil de aprender y es ideal para los principiantes .
+- Suelen tener una sintaxis más simplificada que los tradicionales .
+- Permiten escribir menos líneas de código para realizar algo específico .
+- Tienen una gran variedad de bibliotecas y una gran comunidad de programadores que ayuden con las dudas
+- Tiene una interpretación  en tiempo real .
+
+## Tecnologías y Lenguajes Asociados. Integración del Código con las Etiquetas HTML
+
+probando en casa
+
+### Subsección 1.1
+
+
+
+### Subsubsección 1.2
+
+
+
+##  Herramientas de Programación
+
+Texto 
+
+### Subsección 1.1
+
+
+
+##  Bibliografía
+- https://blog.infranetworking.com/modelo-cliente-servidor/#Ejemplos_de_modelo_cliente_servidor
+- https://blog.hubspot.es/website/que-es-javascript
+- https://www.siteground.es/kb/pagina-diferente-segun-navegador/
+- https://blog.back4app.com/es/los-10-principales-lenguajes-de-desarrollo-del-lado-del-cliente/#Los_10_principales_lenguajes_de_desarrollo_del_lado_del_cliente
