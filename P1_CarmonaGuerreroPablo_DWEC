@@ -109,15 +109,20 @@ Se utliza para mejorar la legibilidad del código , definir variables , herencia
 - Tienen una gran variedad de bibliotecas y una gran comunidad de programadores que ayuden con las dudas
 - Tiene una interpretación  en tiempo real .
 
+#### **Desventajas**
+
+- Suelen ser más lentos de rendimiento en comparación a los lenguajes tradicionales .
+-  Por motivos de seguridad , algunos lenguajes Script restringen el acceso al sistema operativo y al hardware . Esto les hace tener limitaciiones en aplicaciones de alto rendimiento .
+-  En algunos lenguajes Script , el control de la memoria es administrado por el sistema de forma automática , lo que puede ocasionar una ineficiencia en la gestión de la memoria .
+-  Pueden no ser la mejor opción para aplicaciones de tiempo real , sistemas de tiempo crítico o aplicaciones de alto rendimiento , donde se requiere un control y una optimización precisos
+
 ## Tecnologías y Lenguajes Asociados. Integración del Código con las Etiquetas HTML
 
-probando en casa
-
-### Subsección 1.1
+### Exploración de tecnologías como CSS y HTML5.
 
 
 
-### Subsubsección 1.2
+### Creación de una pequeña aplicación web integrando código JavaScript de diferentes maneras.
 
 
 
