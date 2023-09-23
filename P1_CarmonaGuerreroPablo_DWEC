@@ -130,20 +130,68 @@ CSS es un lenguaje que se utiliza para el diseño de las páginas webs hechas co
 
 ### Creación de una pequeña aplicación web integrando código JavaScript de diferentes maneras.
 
+#### **JavaScript integrado en el html**
 
+![Imagen local](JavaScript_Incrustado1.png)
+![Imagen local](JavaScript_Incrustado2.png)
+
+#### **JavaScript externo al html**
+
+![Imagen local](JavaScript_Externo1.png)
+![Imagen local](JavaScript_Externo2.png)
+![Imagen local](JavaScript_Externo3.png)
 
 ##  Herramientas de Programación
 
-Texto 
+### Uso de herramientas como Visual Studio Code, Chrome DevTools, etc.
 
-### Subsección 1.1
+El uso de herramientas de programación es crucial cuando se trabaja en un entorno de desarrollo web , ya que te pueden ayudar a crear, editar , mantener y solucionar una gran variedad de problemas en las aplicaciones .
 
+Para encontrar las mejores herramientas de programación , hay que considerar los siguientes aspectos : 
 
+- Complejidad
+- Seguridad
+- Escalabilidad
+- Costo
+- Lenguajes de programación
+- Soporte de plataforma
+
+Generalmente tienen propósitos únicos como :
+
+- Editores de código
+- Herramientas de desarrollo de navegador
+- Software de prototipos web
+- Gestoresd e paquetes
+- Sistemas de control de versiones
+- Ejecutores de tareas
+- Herramientas de prueba de API
+- Biblioteca de JavaScript
+- Software de gestión de contenedores
+- Preprocesadores CSS
+- Servidores Web
+
+Entre las mejores herramientas encontramos :
+
+- Github : es un servicio de alojamiento de repositorios basados en la nube .
+- Chrome Developer Tools : son un conjunto de herramientas de edición y depuración web integrados en Google Chrome.
+- Sublime Text : la mejor opción para los programadores novatos .
+- Virtual Studio Code : es un editor de código abierto , incluye funciones integradas como resaltado de sintaxis , autocompletado y comandos de Git para faciltiar la programación.
+- Grunt : es un gran ejecutor de tareas de JS para automatizar tareas repetitivas como prubas unitarias , la minificación y la compilación .
 
 ##  Bibliografía
+
+### Parte 1 :
 - https://blog.infranetworking.com/modelo-cliente-servidor/#Ejemplos_de_modelo_cliente_servidor
+### Parte 2 :
 - https://blog.hubspot.es/website/que-es-javascript
 - https://www.siteground.es/kb/pagina-diferente-segun-navegador/
+### Parte 3 :
 - https://blog.back4app.com/es/los-10-principales-lenguajes-de-desarrollo-del-lado-del-cliente/#Los_10_principales_lenguajes_de_desarrollo_del_lado_del_cliente
+
+### Parte 4 : 
+- https://www.epitech-it.es/lenguaje-programacion-mas-facil/
+### Parte 5 :
 - https://www.arimetrics.com/glosario-digital/html5#:~:text=El%20HTML5%20es%20un%20lenguaje,de%20la%20World%20Wide%20Web.
 - https://lenguajecss.com/css/introduccion/que-es-css/
+### Parte 6 : 
+- https://www.hostinger.es/tutoriales/herramientas-de-programacion
