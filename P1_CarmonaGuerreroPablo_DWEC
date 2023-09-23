@@ -120,7 +120,13 @@ Se utliza para mejorar la legibilidad del código , definir variables , herencia
 
 ### Exploración de tecnologías como CSS y HTML5.
 
+#### **HTML5**
 
+HTML5 es un lenguaje de etiquetas que se utiliza para la estructura y presentación de contenidos en las páginas web , es la base del funcionamiento web tal y como la conocemos . Se publicó el 28 de octubre de 2014 y su versión anterior , HTML4 , se estandarizó en 1997 .  Los contenidos que presenta HTML5 son textos , imágenes , vídeos , audios , entre otros ...
+
+#### **CSS**
+
+CSS es un lenguaje que se utiliza para el diseño de las páginas webs hechas con HTML . Nos permite darle forma , color , posición , etc ... Generalmente , se usa una hoja distinta para hacer el contenido CSS de una página y se une a través de una etiqueta de HTML pero también se puede hacer dentro de la misma .
 
 ### Creación de una pequeña aplicación web integrando código JavaScript de diferentes maneras.
 
@@ -139,3 +145,5 @@ Texto
 - https://blog.hubspot.es/website/que-es-javascript
 - https://www.siteground.es/kb/pagina-diferente-segun-navegador/
 - https://blog.back4app.com/es/los-10-principales-lenguajes-de-desarrollo-del-lado-del-cliente/#Los_10_principales_lenguajes_de_desarrollo_del_lado_del_cliente
+- https://www.arimetrics.com/glosario-digital/html5#:~:text=El%20HTML5%20es%20un%20lenguaje,de%20la%20World%20Wide%20Web.
+- https://lenguajecss.com/css/introduccion/que-es-css/
