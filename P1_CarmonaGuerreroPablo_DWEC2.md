@@ -35,7 +35,7 @@ Arquitecturas cliente/servidor :
 
 Arquitectura de 2 capas : 
 
-![bg left:40% 80%](Whatsapp.webp)
+![bg left:40% 80%](whatsapp.webp)
 
 Arquitectura de 3 capas :
 
