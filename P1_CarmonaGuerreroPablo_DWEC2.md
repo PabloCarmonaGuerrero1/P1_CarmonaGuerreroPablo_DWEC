@@ -153,3 +153,22 @@ Propósitos :
 
 ![Imagen local](github.jpg)
 ![Imagen local](vsc.jpg)
+
+---
+## Bibliografía
+
+### Parte 1 :
+- https://blog.infranetworking.com/modelo-cliente-servidor/#Ejemplos_de_modelo_cliente_servidor
+### Parte 2 :
+- https://blog.hubspot.es/website/que-es-javascript
+- https://www.siteground.es/kb/pagina-diferente-segun-navegador/
+### Parte 3 :
+- https://blog.back4app.com/es/los-10-principales-lenguajes-de-desarrollo-del-lado-del-cliente/#Los_10_principales_lenguajes_de_desarrollo_del_lado_del_cliente
+
+### Parte 4 : 
+- https://www.epitech-it.es/lenguaje-programacion-mas-facil/
+### Parte 5 :
+- https://www.arimetrics.com/glosario-digital/html5#:~:text=El%20HTML5%20es%20un%20lenguaje,de%20la%20World%20Wide%20Web.
+- https://lenguajecss.com/css/introduccion/que-es-css/
+### Parte 6 : 
+- https://www.hostinger.es/tutoriales/herramientas-de-programacion
