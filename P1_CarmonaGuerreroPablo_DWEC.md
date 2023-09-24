@@ -4,7 +4,7 @@
 
 ### Investigación de los modelos cliente/servidor más comunes.
 
-Entre los diferentes modelos cliente/servidor que existen he elegido estos 4 :
+Las arquitecturas de cliente/servidor son :
 
 - Arquitectura de 2 Capas
 - Arquitectura de 3 Capas
@@ -28,6 +28,8 @@ Como vemos en la Arquitectutra de 3 Capas , los servidores o capas 2 y 3 tienen 
 Ahora vamos a ver ejemplos de aplicaciones que usan estos tres  modelos de cliente/servidor :
 
 - Arquitectura de 2 Capas : Gmail,Outlook,WhatsApp.
+
+
 - Arquitectura de 3 Capas : Amazon,Workday.
 - Arquitectura de N Capas : Oracle,SCM Cloud,Chase Bank.
 
@@ -112,7 +114,7 @@ Se utliza para mejorar la legibilidad del código , definir variables , herencia
 #### **Desventajas**
 
 - Suelen ser más lentos de rendimiento en comparación a los lenguajes tradicionales .
--  Por motivos de seguridad , algunos lenguajes Script restringen el acceso al sistema operativo y al hardware . Esto les hace tener limitaciiones en aplicaciones de alto rendimiento .
+-  Por motivos de seguridad , algunos lenguajes Script restringen el acceso al sistema operativo y al hardware . Esto les hace tener limitaciones en aplicaciones de alto rendimiento .
 -  En algunos lenguajes Script , el control de la memoria es administrado por el sistema de forma automática , lo que puede ocasionar una ineficiencia en la gestión de la memoria .
 -  Pueden no ser la mejor opción para aplicaciones de tiempo real , sistemas de tiempo crítico o aplicaciones de alto rendimiento , donde se requiere un control y una optimización precisos .
 
