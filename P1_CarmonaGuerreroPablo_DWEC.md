@@ -13,7 +13,7 @@ Las arquitecturas de cliente/servidor son :
 
 #### **Arquitectura de 2 Capas**
 
-Se utiliza para describir los sistemas c/s , el cliente solicita recursos o información al servidor y este responde con sus respectivos recursos e infromación . Por lo tanto , el servidor no necesita de una aplicación extra para proporcionar un parte de ese servicio .
+Se utiliza para describir los sistemas c/s , el cliente solicita recursos o información al servidor y este responde con sus respectivos recursos e infromación . Por lo tanto , el servidor no necesita de una aplicación extra para proporcionar una parte de ese servicio .
 
 #### **Arquitectura de 3 Capas**
 
@@ -28,8 +28,6 @@ Como vemos en la Arquitectutra de 3 Capas , los servidores o capas 2 y 3 tienen 
 Ahora vamos a ver ejemplos de aplicaciones que usan estos tres  modelos de cliente/servidor :
 
 - Arquitectura de 2 Capas : Gmail,Outlook,WhatsApp.
-
-
 - Arquitectura de 3 Capas : Amazon,Workday.
 - Arquitectura de N Capas : Oracle,SCM Cloud,Chase Bank.
 
@@ -41,7 +39,7 @@ JavaScript se ejecuta en un navegador web en varios procesos :
 
 - **Descarga y carga del código** : Cuando en el navegador entramos en una página web que contiene JavaScipt , empieza a descargarlo en la memoria del navegador y también a cargarlo . Este código puede estar incrustado en el archivo de HTML o puede ser externo .
 - **Análisis léxico y sintáctico** : Una vez cargado el código , el motor de este realiza un análisis léxico y sintáctico del código para comprobar que se ha escrito correctamente . Si hay algún error en el código se mostrará un mensaje de error en la consola.
-- **Creación del árbol de análisis** : Después depasar el análisis léxico y sintáctico , se crea un árbol de análisis que representa la estructura del código y  lo descompone en un estructura jerárquica para una fácil interpretación y ejecucción.
+- **Creación del árbol de análisis** : Después de pasar el análisis léxico y sintáctico , se crea un árbol de análisis que representa la estructura del código y  lo descompone en un estructura jerárquica para una fácil interpretación y ejecucción.
 - **Interpretación línea por línea** : Mientras que el navegador interpreta el código , ejecuta las instrucciones correspondientes . Cada una de esas instruccionees se evalua y produce un resultado o efecto según el código .
 - **Manipulación del DOM y eventos** : Javascript manipula el DOM para manipular y modificar elementos HTML y CSS en la página .  Este accede utilizando métodos y propiedades proporcionados por el navegador . También puede registrar callbacks para eventos específicos como clicks de botón o cambios de algún valor .
 - **Ciclo de eventos** : Permite que el código responda a eventos y se ejecute de forma asincrona . Cuando se produce un evento el código correspondiente se ejecuta como parte de este ciclo , lo que permite un interacción fluida y una respuesta en tiempo real .   
